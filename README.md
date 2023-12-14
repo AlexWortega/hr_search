@@ -35,7 +35,7 @@
 ## Эксперементы
 | Model Name          | MRR Score                                  |
 |---------------------|---------------------------------------------|
-| mpner                | 0.88|
+| paraphrase-multilingual-mpnet-base-v2                | 0.88|
 | ruElectra             | 0.72                  |
 | SBERT               |0.64 |
 
