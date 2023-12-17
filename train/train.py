@@ -44,7 +44,6 @@ def train(args):
 
     # Load and preprocess data
     df = pd.read_pickle(args.data_path)
-    df = df[['specializations.names', 'description']]
     all_pairs = list(df.itertuples(index=False, name=None))
 
     # Initialize model and tokenizer

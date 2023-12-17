@@ -37,10 +37,10 @@ cd metrics
    python3 train.py --datapath data/train.pkl --modelname paraphrase-multilingual-mpnet-base-v2 --learningrate 1e-5 --batchsize 16 --margin 0.3 --epochs 10 --seed 42 --projectname paraphrase-training --checkpointpath paraphrasecheckpoint.pt --checkpointsteps 1000 --outputpath paraphrasemodel.pt
 ```
    
-## Эксперементы
+## Итоговая метрика нашего обученого подхода в сравнении с открытыми решениями
 | Model Name          | MRR Score                                  |
 |---------------------|---------------------------------------------|
-| paraphrase-multilingual-mpnet-base-v2                | 0.88|
-| ruElectra             | 0.72                  |
+| paraphrase-multilingual-mpnet-base-v2                | 0.75|
+| ruElectra             | 0.68                  |
 | SBERT               |0.64 |
 
