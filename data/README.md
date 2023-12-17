@@ -1,4 +1,9 @@
-Скачать данные сейчас можно с помощью команды `git lfs install git clone https://huggingface.co/datasets/AlexWortega/vacs_hh`
+Скачать данные сейчас можно с помощью команды 
+```
+git lfs install
+git clone https://huggingface.co/datasets/AlexWortega/vacs_hh
+```
+Затем перейдите в prepare_data.ipynb чтобы разделить выборку на train и test
 
 ### Как собирали данные:
 1. Спарсили с hh.ru вакансии с hh.ru и cv:
