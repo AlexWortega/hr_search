@@ -37,3 +37,14 @@ MRR является метрикой для оценки качества ра�
 | paraphrase-multilingual-mpnet-base-v2               |0.68 | 0.67 |
 | sn-xlm-roberta-base-snli-mnli-anli-xnli | 0.37 | 0.36 |
 
+# Pезультаты подбора гиперпараметров на моделе paraphrase-multilingual-mpnet-base-v2 
+
+| Model Name          | MRR Score                                  | pass@1 |
+|---------------------|---------------------------------------------|------|
+|    learning_rate = 5e-5             |0.68| 0.67 |
+| learning_rate = 5e-3            | 0.61                  |0.6 |
+| batch_size=16               |0.68 | 0.67 |
+| batch_size=8 | 0.63 | 0.65 |
+| epochs=5 | 0.68 | 0.67 |
+| epochs=3 | 0.65 | 0.66 |
+
